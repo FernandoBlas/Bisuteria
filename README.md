@@ -1,2 +1,2 @@
 # Bisuteria
-Pagina de proyecto personal sobre venta de ùlseras
+Pagina de proyecto personal sobre venta de pulseras
