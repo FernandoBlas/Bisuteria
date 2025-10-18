@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Joyas Artesanales</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff8f5;
+      color: #333;
+    }
+    header {
+      background-color: #e2b4a6;
+      padding: 15px 0;
+      text-align: center;
+      color: white;
+      font-size: 1.5em;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    nav {
+      background-color: #f1d3c0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #5a3e36;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #000;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .product {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .product:hover {
+      transform: scale(1.03);
+    }
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 15px 0 10px;
+      color: #5a3e36;
+    }
+    .product p {
+      color: #7a5c52;
+      font-size: 0.95em;
+      margin: 0 15px 15px;
+    }
+    .btn-product {
+      display: inline-block;
+      background-color: #e2b4a6;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      transition: background-color 0.3s;
+    }
+    .btn-product:hover {
+      background-color: #d19a8b;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #f1d3c0;
+      color: #5a3e36;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    ✨ Tienda de Joyas Artesanales ✨
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Colección</a>
+    <a href="https://wa.me/527713469421">Contactar</a>
+  </nav>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba5?auto=format&fit=crop&w=800&q=80" alt="Pulsera artesanal">
+      <h3>Pulsera Elegante</h3>
+      <p>Hecha a mano con cuentas naturales y detalles dorados. Ideal para toda ocasión.</p>
+      <a href="https://wa.me/527713469421?text=Hola,%20estoy%20interesado%20en%20la%20Pulsera%20Elegante" class="btn-product">Contactar por WhatsApp</a>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1600185365483-26d7a4b6d9f2?auto=format&fit=crop&w=800&q=80" alt="Collar artesanal">
+      <h3>Collar Bohemio</h3>
+      <p>Diseño único con piedras naturales y cordón ajustable. Inspirado en la naturaleza.</p>
+      <a href="https://wa.me/527713469421?text=Hola,%20estoy%20interesado%20en%20el%20Collar%20Bohemio" class="btn-product">Contactar por WhatsApp</a>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1600185365683-cf41d8604e3e?auto=format&fit=crop&w=800&q=80" alt="Aretes artesanales">
+      <h3>Aretes Florales</h3>
+      <p>Pequeños toques de color y elegancia. Hechos con amor y materiales sostenibles.</p>
+      <a href="https://wa.me/527713469421?text=Hola,%20estoy%20interesado%20en%20los%20Aretes%20Florales" class="btn-product">Contactar por WhatsApp</a>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1600185365531-49e2d6f3b63e?auto=format&fit=crop&w=800&q=80" alt="Set artesanal">
+      <h3>Set Completo</h3>
+      <p>Incluye collar, pulsera y aretes combinados. El regalo perfecto para alguien especial.</p>
+      <a href="https://wa.me/527713469421?text=Hola,%20estoy%20interesado%20en%20el%20Set%20Completo" class="btn-product">Contactar por WhatsApp</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Tienda de Joyas Artesanales | Hecho con 💖 en México  
+  </footer>
+
+</body>
+</html>
